@@ -2,17 +2,17 @@
   "authors": [
     "Sam Mulube <sam.mulube@logmein.com>"
   ],
-  "name": "hookio-redis",
-  "description": "Listen for hook.io events and write them to redis lists",
+  "name": "hookio-redis-client",
+  "description": "Listen for hook.io events and execute redis operations",
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "git://github.com/pachube/hookio-redis.git"
+    "url": "git://github.com/smulube/hookio-redis-client.git"
   },
   "bin": {
-     "hookio-redis": "./bin/redis"
+     "hookio-redis-client": "./bin/redis-client"
   },
-  "main" : "lib/redis",
+  "main" : "lib/redis-client",
   "engines": {
     "node": ">= v0.4.7"
   },
