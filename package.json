@@ -1,13 +1,12 @@
 {
-  "authors": [
-    "Sam Mulube <sam.mulube@logmein.com>"
-  ],
-  "name": "hookio-redis-client",
-  "description": "Listen for hook.io events and execute redis operations",
+  "author": "Sam Mulube <sam.mulube@logmein.com>",
+  "name": "hook.io-redis-client",
+  "description": "Listen for hook.io events and execute operations against a Redis server",
+  "keywords": ["hook.io", "redis"],
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "git://github.com/smulube/hookio-redis-client.git"
+    "url": "git://github.com/smulube/hook.io-redis-client.git"
   },
   "bin": {
      "hookio-redis-client": "./bin/redis-client"
@@ -23,7 +22,6 @@
     "redis": "0.7.2",
     "hiredis": "0.1.14"
   },
-  "devDependencies": {
-    "jasmine-node": ""
-  }
+  "devDependencies": {},
+  "bugs": "https://github.com/smulube/hook.io-redis-client/issues"
 }
