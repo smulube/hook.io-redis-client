@@ -1,0 +1,29 @@
+{
+  "authors": [
+    "Sam Mulube <sam.mulube@logmein.com>"
+  ],
+  "name": "hookio-redis",
+  "description": "Listen for hook.io events and write them to redis lists",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pachube/hookio-redis.git"
+  },
+  "bin": {
+     "hookio-redis": "./bin/redis"
+  },
+  "main" : "lib/redis",
+  "engines": {
+    "node": ">= v0.4.7"
+  },
+  "dependencies": {
+    "hook.io": "0.8.x",
+    "colors": "0.5.x",
+    "async": "0.1.x",
+    "redis": "0.7.2",
+    "hiredis": "0.1.14"
+  },
+  "devDependencies": {
+    "jasmine-node": ""
+  }
+}
