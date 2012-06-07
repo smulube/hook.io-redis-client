@@ -3,7 +3,7 @@
   "name": "hook.io-redis-client",
   "description": "Listen for hook.io events and execute operations against a Redis server",
   "keywords": ["hook.io", "redis"],
-  "version": "0.0.1-2",
+  "version": "0.0.1-3",
   "repository": {
     "type": "git",
     "url": "git://github.com/smulube/hook.io-redis-client.git"
